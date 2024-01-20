@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+.back {
+    width: 1920px;
+    height: 1080px;
+    flex-shrink: 0;
+    background: #FFF;
+    border: 1px blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup {
+    width: 670px;
+    height: 960px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border: 1px solid #AACDFF;
+    background: #FFF;
+    box-shadow: 7px 7px 39px 0px rgba(0, 104, 255, 0.25);   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    width: 466px;
+    color: #0068FF;
+    font-family: Noto Sans CJK KR;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.btn{
+    width: 470px;
+    height: 75px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #0068FF;
+    background: #FFF;
+    color: #0068FF;
+    text-align: center;
+    font-family: Noto Sans CJK KR;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ln{
+    width:  470px;
+    height: 0.998px;
+    flex-shrink: 0;
+    background: #E6E6E6;
+}
+.chbx{
+    width: 454px;
+    height: 21.056px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+}
+.check{
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+}
+.checkboxtext{
+    width: 419px;
+    height: 21px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Noto Sans CJK KR;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.gen1{
+    width: 140px;
+    height: 23.944px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+}
+.gen2{
+    width: 55px;
+    height: 23.944px;
+    flex-shrink: 0;
+    display: flex;
+    /* justify-content: center; */
+}
+.radiobtn{
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    fill: #EBEBEB;
+    stroke-width: 1px;
+    stroke: #D2D2D2;
+}
+.gentx{
+    width: 30px;
+    height: 23.944px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Noto Sans CJK KR;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} 
